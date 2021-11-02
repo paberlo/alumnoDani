@@ -7,4 +7,4 @@ script:
   - cd  $TRAVIS_BUILD_DIR/src/Backend/OrderService
   - ./gradlew build test
   - cd  $TRAVIS_BUILD_DIR/src/Clients
-  - ./gradlew build
+  - ./gradlew build 
